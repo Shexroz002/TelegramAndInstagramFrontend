@@ -1,0 +1,137 @@
+/*-------------- Middle ----------------------- */
+
+.middle .middle__info{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+    margin-bottom: 3.7rem;
+}
+
+.middle .middle__info img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 2rem;
+}
+
+.middle .middle__info h4{
+    position: absolute;
+    left: 5.3rem;
+    top: -0.2rem;
+    color: #000;
+    font-family: "Manrope";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.middle .profile__avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.2rem;
+}
+
+.middle .profile__avatar img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.middle .input-username{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.middle .input-username .name{
+    width: 20rem;
+    height: 3.5rem;
+    padding: 1rem ;
+    border-radius: 0.5rem;
+    border: 2px solid rgba(145, 158, 171, 0.32);
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    
+}
+
+.middle .input-username .label-name{
+    position: relative;
+    left: -7.5rem;
+    top: 0.5rem;
+    color: #919EAB;
+    background: #F8FAFF;
+    font-family:"Public Sans";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.125rem
+}
+
+.middle .input-username span{
+    position: relative;
+    left: -2.5rem;
+    margin-top: 1.2rem;
+    color: #7C7C7D;
+    font-family: "Manrope";
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.middle .input-username .about{
+    width: 20rem;
+    height: 6.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(145, 158, 171, 0.32);
+    color: #212B36;
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    z-index: 7;
+    margin-top: 1.2rem;
+    
+    
+}
+
+.middle .input-username .about-label{
+    position: relative;
+    left: -7.5rem;
+    top: 1.8rem;
+    z-index: 75;
+    color: #919EAB;
+    font-family: Public Sans;
+    font-size: 0.75rem;
+    background: #F8FAFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.22rem;
+}
+
+.middle .input-username button{
+
+    width: 9.375rem;
+    padding: 0.6875rem 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid #5B96F7;
+    background: #F8FAFF;
+    color: #5B96F7;
+    font-family: Public Sans;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.625rem;
+    position: relative;
+    top: 2.4rem;
+    left: 5.2rem;
+    
+}

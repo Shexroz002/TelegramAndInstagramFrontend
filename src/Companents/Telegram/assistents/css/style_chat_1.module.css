@@ -1,0 +1,218 @@
+
+
+/* Chat Style */
+.middle .chat_info{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.middle .chat_info img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 2rem;
+}
+
+.middle .chat_info h4{
+    padding: 0 0.375rem;
+    margin-left: 1.82rem;
+    color: #000;
+    font-family: "Manrope";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.middle .chat_search {
+    position: relative;
+    margin: 0 auto;
+    width: 21rem;
+    height: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1.25rem;
+    background: #EAF2FE;
+}
+
+.middle .chat_search .chat_search__search__icon{
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 1.8rem;
+    top: 0.9rem;
+}
+
+.middle .chat_search input{
+    color: #709CE6;
+    font-family: "Manrope";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: #EAF2FE;
+    border: none;
+    outline-style: none;
+}
+
+.middle .chat_search .chat_search__funnel{
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: -.8rem;
+    top: 0.9rem;
+}
+
+.middle .arxive_section{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background: #F8FAFF;
+    width: 20.4375rem;
+    height: 3rem;
+    margin: 0 auto;
+    margin-top: 2.2rem;
+    padding-bottom: 1rem;
+    border-bottom:  0.03125rem solid #B4B4B4;
+}
+
+.middle .arxive_section img{
+    width: 1.475rem;
+    height: 1.5rem;
+    position: absolute;
+    left: 2rem;
+    /* padding-bottom: 1rem; */
+}
+
+.middle .arxive_section h4{
+    position: absolute;
+    left: 5rem;
+    top: 0.1rem;
+    color: #709CE6;
+    font-family: "Manrope";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.middle .chats_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.middle .chats_box h4{
+    color: #676667;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 17px;
+    position: absolute;
+    left: 40px;
+}
+
+.middle .chats_box .all_message{
+    margin-top: 63px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow-y: auto;
+    
+}
+.middle .chats_box .all_message .chat_message{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 327px;
+    height: 81px;
+    border-radius: 15px;
+    background: #fff;
+    align-items: center;
+
+}
+/*  core style */
+ .chat_message__image{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    margin-left: 15px;
+}
+/*  core style */
+ .chat_message__image  img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+/*  core style */
+.chat-message_info p{
+    color: #030303;
+    font-family: "Manrope";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.middle .chats_box .all_message .chat_message .chat-message_info{
+    margin-left: -35px;
+}
+/*  core style */
+.chat-message_info span{
+    color: #7C7C7D;
+    font-family: Manrope;
+    font-size: 0.85rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.middle .chats_box .all_message .chat_message .chat-message_time{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 25px;
+}
+.middle .chats_box .all_message .chat_message .chat-message_time p{
+    color: #686768;
+    font-family: "Manrope";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.middle .chats_box .all_message .chat_message .chat-message_time span{
+    width: 16px;
+    height: 16px;
+    background-color: #5B96F7;
+    position: relative;
+    top: 4px;
+    left: 6px;
+    border-radius: 50%;
+    color: #FFF;
+    font-family: "Manrope";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+
+.right-info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
